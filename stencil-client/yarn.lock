@@ -11,6 +11,15 @@
     "@accounts/types" "^0.9.0"
     crypto-js "^3.1.9-1"
 
+"@accounts/client@^0.27.0":
+  version "0.27.0"
+  resolved "https://registry.yarnpkg.com/@accounts/client/-/client-0.27.0.tgz#3106f507ec2623aadcff395cce9d51ef027e4463"
+  integrity sha512-OFJT+I6uPe5U7R3fkSfddiCQDLA0QAVYY/usZOWlYZlRJNVTiywWJ6g9S0J5fTtWPLyEn0DbX2SPYYa2msAJ8Q==
+  dependencies:
+    "@accounts/types" "^0.27.0"
+    jwt-decode "2.2.0"
+    tslib "1.11.2"
+
 "@accounts/client@^0.9.0":
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/@accounts/client/-/client-0.9.0.tgz#e6ff3d99292a983ab109d8a64f80966f63a9fc5a"
@@ -19,14 +28,22 @@
     "@accounts/types" "^0.9.0"
     jwt-decode "2.2.0"
 
-"@accounts/graphql-client@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@accounts/graphql-client/-/graphql-client-0.9.0.tgz#d0ab8cafa6c8024c871b756a5f767d70f42c0660"
-  integrity sha512-Yh0dqh/wNV2zOZrxaR9Y8asRpZ8y64JkBnRO1iBA79iKUOq7gXwvPVFe60Rt2olbg5lShHsU3wAieVxyJ7FF1w==
+"@accounts/graphql-client@^0.27.0":
+  version "0.27.0"
+  resolved "https://registry.yarnpkg.com/@accounts/graphql-client/-/graphql-client-0.27.0.tgz#83e511308b2dad040816c92e6f188b022f85f5bc"
+  integrity sha512-38W5Inix4zcw0ahoIIrj33iWV0GNRzPaXRb16LEfI7HpOI9OttuepxpIX/1jljFOBhpnJuDYO/NcMBsrH7Puxg==
   dependencies:
-    "@accounts/client" "^0.9.0"
-    "@accounts/types" "^0.9.0"
+    "@accounts/client" "^0.27.0"
+    "@accounts/types" "^0.27.0"
     graphql-tag "^2.10.0"
+    tslib "1.11.2"
+
+"@accounts/types@^0.27.0":
+  version "0.27.0"
+  resolved "https://registry.yarnpkg.com/@accounts/types/-/types-0.27.0.tgz#459a27e0e5c6918255589fee897eb87c4d2230df"
+  integrity sha512-wAUJwnHPlX2ZJe44jGnH8YavLb/gYKkJ5+ysBHE9Uf3G6thcuqPPd+J/61x2hb5LS4M+u9ViJmNVwXvXhyJpWg==
+  dependencies:
+    tslib "1.11.2"
 
 "@accounts/types@^0.9.0":
   version "0.9.0"
@@ -3007,6 +3024,11 @@ ts-log@2.1.4:
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/ts-log/-/ts-log-2.1.4.tgz#063c5ad1cbab5d49d258d18015963489fb6fb59a"
   integrity sha512-P1EJSoyV+N3bR/IWFeAqXzKPZwHpnLY6j7j58mAvewHRipo+BQM2Y1f9Y9BjEQznKwgqqZm7H8iuixmssU7tYQ==
+
+tslib@1.11.2:
+  version "1.11.2"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.11.2.tgz#9c79d83272c9a7aaf166f73915c9667ecdde3cc9"
+  integrity sha512-tTSkux6IGPnUGUd1XAZHcpu85MOkIl5zX49pO+jfsie3eP0B6pyhOlLXm3cAC6T7s+euSDDUUV+Acop5WmtkVg==
 
 tslib@1.9.3, tslib@^1.9.0:
   version "1.9.3"
